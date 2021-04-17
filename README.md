@@ -1,8 +1,42 @@
 # DevOps Introduction
 
-- Why we need DevOps?
+DevOps is trending and hot in the IT world as it has been adopted by most top companies.
 
-- What is DevOps?
+**- What is DevOps?**
+
+DevOps is an amazing software development methodology that combines software development (Dev) with IT operations (Ops) participating together in the entire service life-cycle.
+
+To understand it we have a developer and developers are responsible for things suchs as new product features, bug fixes, security updates and code refactoring and much more. The development team are building products and eventually will have to deploy to a development environment to check integrations and various other aspects of the product. Development environments can vary wildly to production environments. So when deploying from development to production, warning and errors often occur. Here is when operations teams come to the stage. Operations teams are responsible for managing service, ensuring that services are running and products are running correctly. Basically, that are sufficiently monitored and the server uptime is maintained and largely growing capacity as the product.
+
+So, DevOps is a culture that bridges the gap between development and operation teams, in order that they can build, test, and release software faster.
+
+**- Why we need DevOps?**
+
+For the reason that before, the development and operations team used to work in silos (This means, such as the inability to work efficiently between the areas or business units that comprise them). It may seem to operations that development are merely thworing the problems and issues over the water operations to deal with and from a developer's perspective, it can scene operations can be very slow and lacking the frequency that the development team need to deliver. So as both had development and operations team were working in silos, the key aspects of DevOps is breaking no solos down and having the two teams working closer together, sharing responsibilities, beginning to deploy the infrastructure development need as code and being able to automate all these processess. So these are the main principles of why we need devops.
+
+**- Benefits of DevOps practices?**
+
+As we already know what devops is and why this culture needs to be implemented, now we are going to talk about the good practices of which devops have to be supported.
+
+They are continuos integration, continuos delivery in continuos deployment, often simply known as CI/CD. So now we are going to talk about CI and CD practices in more depth. 
+
+- Continuos Integration: we have a development team building products, writing test to ensure that the product work correctly and storing that code in a source control system to allow other developers to work on it.
+
+- Continuos delivery: the next step will be to engage with the operations team and work together to deploy onto either on premise or cloud infrastructure. Utilizing infrastructure as code and ensuring the order test pass here too. Everything should be stored together to ensure that version control is continued thoroughout the entire product. Now a server will manage all of them. The server will connect to git. Monitor any changes and then in turn run all of the practices. So once the test have passed, then move to a pre production environment and complete the same practice to ensure that quality is running throughout.
+
+Continuous delivery is an extension of continuous integration to make sure that you can release new changes to your customers quickly in a sustainable way. This means that on top of having automated your testing, you also have automated your release process and you can deploy your application at any point of time by clicking on a button. In continuous Delivery the deployment is completed manually.
+
+- Continuos Deployment: Continuous Deployment goes one step further than continuous delivery, with this practice, every change that passes all stages of your production pipeline is released to your customers, there is no human intervention, and only a failed test will prevent a new change to be deployed to production.
+
+Finally all of these practices combined and runnint test all the way through to production is known as continuos deployment.
+
+**- what are the benefits of devops?**
+
+Companies that incorporate DevOps practices get more done, plain and simple. With a single team composed of cross-functional members all working in collaboration, DevOps organizations can deliver with maximum speed, functionality, and innovation. Technical Benfits:Continuous software delivery. Cultural Benefits:more productive teams. Business Benefits:Faster delivery of features.
+
+In turn, this will deliver faster time to market, improved team collaboration, continous release cycles, automated and scalable environments, and most importantly increased quality due to automated testing throughout.
+
+- What is DevOps? (More definitions)
 
 1. A collaboration of Development (Dev) and Operations (Ops).
 
